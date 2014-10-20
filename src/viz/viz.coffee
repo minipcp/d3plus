@@ -24,6 +24,7 @@ module.exports = ->
       stacked:  require "./types/stacked.coffee"
       table:    require "./types/table.js"
       tree_map: require "./types/tree_map.coffee"
+      doughnut: require "./types/doughnut.coffee"
 
   # Main drawing function
   vars.self = (selection) ->

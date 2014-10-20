@@ -17,6 +17,7 @@ var child         = require("../../../util/child.coffee"),
 
 var drawShape = {
   "arc":           require("./arc.coffee"),
+  "doughnut_arc":  require("./doughnut_arc.coffee"),
   "area":          require("./area.js"),
   "check":         require("./check.js"),
   "coordinates":   require("./coordinates.js"),
@@ -49,6 +50,7 @@ module.exports = function(vars) {
   //----------------------------------------------------------------------------
   var shapeLookup = {
     "arc":             "arc",
+    "doughnut_arc":    "doughnut_arc",
     "area":            "area",
     "check":           "check",
     "circle":          "rect",
